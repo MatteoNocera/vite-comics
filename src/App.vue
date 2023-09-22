@@ -1,6 +1,7 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
+import AppBuy from './components/AppBuy.vue';
 
 
 export default {
@@ -10,7 +11,8 @@ export default {
   },
   components: {
     AppHeader,
-    AppMain
+    AppMain,
+    AppBuy
   }
 }
 </script>
@@ -19,6 +21,8 @@ export default {
   <AppHeader></AppHeader>
 
   <AppMain></AppMain>
+
+  <AppBuy></AppBuy>
 
   <footer id="app_footer"></footer>
   <!-- /#app_footer -->
