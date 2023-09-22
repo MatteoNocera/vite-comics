@@ -2,6 +2,7 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppBuy from './components/AppBuy.vue';
+import AppLinks from './components/AppLinks.vue';
 
 
 export default {
@@ -12,7 +13,8 @@ export default {
   components: {
     AppHeader,
     AppMain,
-    AppBuy
+    AppBuy,
+    AppLinks
   }
 }
 </script>
@@ -23,6 +25,8 @@ export default {
   <AppMain></AppMain>
 
   <AppBuy></AppBuy>
+
+  <AppLinks></AppLinks>
 
   <footer id="app_footer"></footer>
   <!-- /#app_footer -->

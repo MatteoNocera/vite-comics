@@ -19,6 +19,8 @@ $dc_light: #797979;
 
   .selected {
     color: $dc_primary;
+    border-bottom: 3px solid $dc_primary;
+
   }
 }
 
@@ -39,6 +41,8 @@ $dc_light: #797979;
 #buy {
   background-color: $dc_primary;
   color: $dc_white;
+  position: relative;
+  z-index: 100;
 
   a {
     text-decoration: none;
@@ -57,3 +61,27 @@ $dc_light: #797979;
 }
 
 /* #endregion Buy */
+
+/* #region Links */
+
+#links {
+  background-image: url(../img/footer-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $dc_white;
+
+
+  a {
+    text-decoration: none;
+    color: $dc_light;
+
+  }
+
+  #dc_logo_big {
+    position: absolute;
+    translate: 0 -150px;
+    z-index: 0;
+  }
+}
+
+/* #endregion Links */
