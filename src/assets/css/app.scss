@@ -12,10 +12,22 @@ $dc_light: #797979;
 /* #region Header */
 
 #app_header {
+
   .selected {
     color: $dc_primary;
   }
 }
 
-
 /* #endregion Header */
+
+/* #region Main */
+
+#app_main {
+
+  background-color: $dc_dark;
+  height: 200px; // To Eliminate
+}
+
+/* #endregion Main */
+
+/* #region */

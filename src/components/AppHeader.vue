@@ -13,30 +13,39 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">CHARACTERS</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link selected" href="#">COMICS</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">MOVIES</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">TV</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">GAMES</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">COLLECTIBLES</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">VIDEOS</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">FANS</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">NEWS</a>
                     </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">SHOP</a>
                     </li>
@@ -55,5 +64,3 @@ export default {
     name: 'AppHeader'
 }
 </script>
-
-<style></style>
