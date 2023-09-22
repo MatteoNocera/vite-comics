@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <h1 class="text-success">ciao</h1>
+  <h1 class="">ciao</h1>
 </template>
 
-<style></style>
+<style lang="scss"></style>
