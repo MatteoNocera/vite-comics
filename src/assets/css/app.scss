@@ -1,12 +1,21 @@
 @import '/node_modules/bootstrap/scss/bootstrap.scss';
 
-/* Variables */
+/* #region Variables */
 $dc_primary: #0282f9;
 $dc_dark: #1c1c1c;
 $dc_white: #ffffff;
 $dc_dark_soft: #303030;
 $dc_light: #797979;
 
-h1 {
-  color: $dc_primary;
+/* #endregion Variables */
+
+/* #region Header */
+
+#app_header {
+  .selected {
+    color: $dc_primary;
+  }
 }
+
+
+/* #endregion Header */

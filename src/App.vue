@@ -1,9 +1,31 @@
 <script>
+import AppHeader from './components/AppHeader.vue';
 
+
+export default {
+  name: 'App',
+  Data() {
+    return {};
+  },
+  components: {
+    AppHeader
+  }
+}
 </script>
 
 <template>
-  <h1 class="">ciao</h1>
+  <AppHeader></AppHeader>
+
+
+
+
+
+
+
+  <main id="app_main"></main>
+  <!-- /#app_main -->
+  <footer id="app_footer"></footer>
+  <!-- /#app_footer -->
 </template>
 
 <style lang="scss"></style>
