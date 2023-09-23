@@ -8,8 +8,10 @@ import AppFoot from './components/AppFoot.vue';
 
 export default {
   name: 'App',
-  Data() {
-    return {};
+  data() {
+    return {
+
+    };
   },
   components: {
     AppHeader,
