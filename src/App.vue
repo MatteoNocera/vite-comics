@@ -3,6 +3,7 @@ import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import AppBuy from './components/AppBuy.vue';
 import AppLinks from './components/AppLinks.vue';
+import AppFoot from './components/AppFoot.vue';
 
 
 export default {
@@ -14,7 +15,8 @@ export default {
     AppHeader,
     AppMain,
     AppBuy,
-    AppLinks
+    AppLinks,
+    AppFoot,
   }
 }
 </script>
@@ -28,8 +30,7 @@ export default {
 
   <AppLinks></AppLinks>
 
-  <footer id="app_footer"></footer>
-  <!-- /#app_footer -->
+  <AppFoot></AppFoot>
 </template>
 
 <style lang="scss"></style>

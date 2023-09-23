@@ -17,11 +17,17 @@ $dc_light: #797979;
 
 #app_header {
 
+  li>a {
+    padding: 3rem 0.8rem;
+  }
+
   .selected {
     color: $dc_primary;
-    border-bottom: 3px solid $dc_primary;
+    border-bottom: 6px solid $dc_primary;
 
   }
+
+
 }
 
 /* #endregion Header */
@@ -85,3 +91,23 @@ $dc_light: #797979;
 }
 
 /* #endregion Links */
+
+/* #region Footer */
+
+#app_footer {
+  background-color: $dc_dark_soft;
+  position: relative;
+  z-index: 100;
+
+  button {
+    color: $dc_white;
+    border-color: $dc_primary;
+  }
+
+  #follow {
+    color: $dc_primary;
+    text-decoration: none;
+  }
+}
+
+/* #endregion Footer */

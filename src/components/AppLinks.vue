@@ -159,7 +159,7 @@
 
 
                 <div class="col-6 position relative">
-                    <img id="dc_logo_big" src="../assets/img/dc-logo-bg.png" alt="">
+                    <img id="dc_logo_big" src="../assets/img/dc-logo-bg.png" alt="Logo DC" class="img-fluid">
                 </div>
 
             </div>

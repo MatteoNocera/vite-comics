@@ -1,10 +1,10 @@
 <template>
     <header id="app_header">
 
-        <nav class="navbar navbar-expand">
+        <nav class="navbar navbar-expand py-0">
 
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand py-0" href="#">
                     <img src="../assets/img/dc-logo.png" alt="Logo DC" class="">
                 </a>
 
