@@ -7,151 +7,58 @@
                     <div class="row">
 
                         <div class="col-4">
+
                             <h5>DC COMICS</h5>
                             <ul class="list-unstyled">
-                                <li>
+                                <li v-for="link in dcComics">
                                     <a href="#">
-                                        Characters
+                                        {{ link.section }}
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                        Comics
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Movies
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        TV
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Games
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Videos
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        News
-                                    </a>
-                                </li>
+
                             </ul>
 
                             <h5>SHOP</h5>
                             <ul class="list-unstyled">
-                                <li>
+
+                                <li v-for="shop in shops">
                                     <a href="#">
-                                        Shop DC
+                                        {{ shop.section }}
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                        Shop DC Collectibles
-                                    </a>
-                                </li>
+
                             </ul>
                         </div>
 
                         <div class="col-4">
+
                             <h5>DC</h5>
                             <ul class="list-unstyled">
-                                <li>
+                                <li v-for="link in dC">
                                     <a href="#">
-                                        Terms Of Use
+                                        {{ link.section }}
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                        Privacy policy (New)
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Ad Choices
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Advertising
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Jobs
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Subscriptions
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Talent Workshops
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        CPSC Certificates
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Ratings
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Show Help
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        Contact Us
-                                    </a>
-                                </li>
+
                             </ul>
+
                         </div>
 
                         <div class="col-4">
+
                             <h5>SITES</h5>
                             <ul class="list-unstyled">
-                                <li>
+
+                                <li v-for="site in sites">
                                     <a href="#">
-                                        DC
+                                        {{ site.section }}
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#">
-                                        MAD Magazine
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        DC Kids
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        DC Universe
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        DC Power Visa
-                                    </a>
-                                </li>
+
                             </ul>
+
                         </div>
+
                     </div>
 
                 </div>
@@ -171,6 +78,95 @@
 
 <script>
 export default {
-    name: 'AppLinks'
+    name: 'AppLinks',
+    data() {
+        return {
+            dcComics: [
+                {
+                    section: 'Characters'
+                },
+                {
+                    section: 'Comics'
+                },
+                {
+                    section: 'Movies'
+                },
+                {
+                    section: 'Tv'
+                },
+                {
+                    section: 'Games'
+                },
+                {
+                    section: 'Videos'
+                },
+                {
+                    section: 'News'
+                }
+
+            ],
+            shops: [
+                {
+                    section: 'Shop DC'
+                },
+                {
+                    section: 'Shop DC Collectibles'
+                }
+            ],
+            dC: [
+                {
+                    section: 'Term Of Use'
+                },
+                {
+                    section: 'Privacy policy (New)'
+                },
+                {
+                    section: 'Ad Choices'
+                },
+                {
+                    section: 'Advertising'
+                },
+                {
+                    section: 'Jobs'
+                },
+                {
+                    section: 'Subscriptions'
+                },
+                {
+                    section: 'Talent Workshops'
+                },
+                {
+                    section: 'CPSC Certificates'
+                },
+                {
+                    section: 'Ratings'
+                },
+                {
+                    section: 'Shop Help'
+                },
+                {
+                    section: 'Contact Us'
+                }
+
+            ],
+            sites: [
+                {
+                    section: 'DC'
+                },
+                {
+                    section: 'MAD Magazine'
+                },
+                {
+                    section: 'DC Kids'
+                },
+                {
+                    section: 'DC Universe'
+                },
+                {
+                    section: 'DC Power Visa'
+                }
+            ]
+        }
+    }
 }
 </script>
