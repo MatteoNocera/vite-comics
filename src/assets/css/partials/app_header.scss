@@ -1,0 +1,18 @@
+#app_header {
+
+    li>a {
+        padding: 3rem 0.8rem;
+    }
+
+    .selected {
+        color: $dc_primary;
+        border-bottom: 6px solid $dc_primary;
+
+    }
+
+    a:hover {
+        color: $dc_primary;
+    }
+
+
+}

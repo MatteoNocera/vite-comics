@@ -1,0 +1,19 @@
+#links {
+    background-image: url(../img/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: $dc_white;
+
+
+    a {
+        text-decoration: none;
+        color: $dc_light;
+
+    }
+
+    #dc_logo_big {
+        position: absolute;
+        translate: 0 -150px;
+        z-index: 0;
+    }
+}

@@ -1,0 +1,20 @@
+#app_main {
+
+    background-color: $dc_dark;
+
+    button {
+        padding: 0 3rem;
+    }
+
+    .card {
+        background-color: $dc_dark;
+        color: $dc_white;
+        border: none;
+
+        img {
+            height: auto;
+            aspect-ratio: 1 / 1;
+        }
+    }
+
+}

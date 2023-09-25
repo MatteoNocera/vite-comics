@@ -1,0 +1,15 @@
+#app_footer {
+    background-color: $dc_dark_soft;
+    position: relative;
+    z-index: 100;
+
+    button {
+        color: $dc_white;
+        border-color: $dc_primary;
+    }
+
+    #follow {
+        color: $dc_primary;
+        text-decoration: none;
+    }
+}
