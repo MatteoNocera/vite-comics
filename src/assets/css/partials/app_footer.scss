@@ -1,4 +1,4 @@
-@import './partials/variables.scss';
+@use './variables.scss' as *;
 
 #app_footer {
     background-color: $dc_dark_soft;

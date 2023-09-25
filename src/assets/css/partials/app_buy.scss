@@ -1,4 +1,4 @@
-@import './partials/variables.scss';
+@use './variables.scss' as *;
 
 #buy {
     background-color: $dc_primary;

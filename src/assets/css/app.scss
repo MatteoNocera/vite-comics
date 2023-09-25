@@ -1,18 +1,18 @@
 @use '/node_modules/bootstrap/scss/bootstrap.scss';
 
-@import './partials/variables.scss';
+@use './partials/variables.scss' as *;
 
-@import './partials/app_header.scss';
+@use './partials/app_header.scss' as *;
 
-@import './partials/app_jumbo.scss';
+@use './partials/app_jumbo.scss' as *;
 
-@import './partials/app_main.scss';
+@use './partials/app_main.scss' as *;
 
-@import './partials/app_buy.scss';
+@use './partials/app_buy.scss' as *;
 
-@import './partials/links.scss';
+@use './partials/app_links.scss' as *;
 
-@import './partials/footer.scss';
+@use './partials/app_footer.scss' as *;
 
 
 /* 
