@@ -1,5 +1,6 @@
 <script>
 import AppHeader from './components/AppHeader.vue';
+import AppJumbo from './components/AppJumbo.vue';
 import AppMain from './components/AppMain.vue';
 import AppBuy from './components/AppBuy.vue';
 import AppLinks from './components/AppLinks.vue';
@@ -15,16 +16,20 @@ export default {
   },
   components: {
     AppHeader,
+    AppJumbo,
     AppMain,
     AppBuy,
     AppLinks,
     AppFoot,
+
   }
 }
 </script>
 
 <template>
   <AppHeader></AppHeader>
+
+  <AppJumbo></AppJumbo>
 
   <AppMain></AppMain>
 
