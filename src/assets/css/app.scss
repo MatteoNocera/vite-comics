@@ -1,21 +1,21 @@
 @use '/node_modules/bootstrap/scss/bootstrap.scss';
 
-/* @use './partials/variables.scss' as *;
+@import './partials/variables.scss';
 
-@use './partials/app_header.scss' as *;
+@import './partials/app_header.scss';
 
-@use './partials/app_jumbo.scss' as *;
+@import './partials/app_jumbo.scss';
 
-@use './partials/app_main.scss' as *;
+@import './partials/app_main.scss';
 
-@use './partials/app_buy.scss' as *;
+@import './partials/app_buy.scss';
 
-@use './partials/links.scss' as *;
+@import './partials/links.scss';
 
-@use './partials/footer.scss' as *; */
+@import './partials/footer.scss';
 
 
-
+/* 
 // #region Variables 
 $dc_primary: #0282f9;
 $dc_dark: #1c1c1c;
@@ -164,4 +164,4 @@ $dc_light: #797979;
     }
 }
 
-// #endregion Footer 
+// #endregion Footer  */

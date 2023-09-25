@@ -31,6 +31,8 @@ export default {
             comics
         };
     },
-    components: { AppCard }
+    components: {
+        AppCard
+    }
 }
 </script>
