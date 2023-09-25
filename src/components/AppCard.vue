@@ -1,8 +1,8 @@
 <template>
     <div class="card">
         <img :src="thumb" alt="">
-        <div class="card-body">
-            <h4 class="card-text">{{ series }}</h4>
+        <div class="py-3">
+            <h5 class="card-text">{{ series }}</h5>
         </div>
     </div>
 </template>
