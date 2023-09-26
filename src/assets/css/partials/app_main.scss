@@ -4,8 +4,12 @@
 
     background-color: $dc_dark;
 
-    button {
+    #load {
         padding: 0 3rem;
+    }
+
+    #current {
+        top: -1.2rem;
     }
 
     .card {

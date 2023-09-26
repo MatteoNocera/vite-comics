@@ -2,6 +2,11 @@
     <div id="app_main">
         <div class="container">
 
+            <div class="position-relative">
+
+                <button id="current" class="btn btn-primary mb-3 position-absolute">CURRENT SERIES</button>
+            </div>
+
             <div
                 class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 justify-content-between justify-content-md-center py-3 g-4 ">
 
@@ -11,7 +16,7 @@
 
             <div class="d-flex justify-content-center">
 
-                <button class="btn btn-primary mb-3">Load More</button>
+                <button id="load" class="btn btn-primary mb-3 px-4">Load More</button>
             </div>
 
         </div>
